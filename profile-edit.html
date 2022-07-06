@@ -1,6 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>UniFind : Login</title>
+        <title>UniFind: Register</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
     <body style="background-color: #e7f0ff;">
@@ -13,7 +14,7 @@
           <a class="align-right navbar-brand text-white" href="account.php"><img src="assets\images\account.png" alt="profile picture" style="width: 30px;"> Marwoto</a>
         </div>
       </nav>
-
+    
       <!-- Navbar dropdown -->
       <nav class="navbar navbar-expand-lg bg-white" style="height: 35px;">
         <div class="container-fluid">
@@ -46,53 +47,62 @@
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 
-      <!-- sponsored-content -->
-      <div class="pt-3 pb-3">
-        <img src="assets/images/kuliah-bsi.jpg" alt="sponsored-content" style="width: 100%; height: 400px;">
-      </div>
+<body style="background-color: #e3ebff; font-family: 'nunito', sans-serif">
+<div class="container justify-content-center">
 
-      <!-- Main menu -->
-      <div class="row p-3 content-center">
-        <div class="col-sm-2 p-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+<div class="card mt-5 shadow-sm p-3 mb-5 bg-body rounded">
+<div class="card-body p-4">
+ 
+  <!-- Pills navs -->
+  
+  <!-- Pills content -->
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+      <form>
+        <h3>Edit Profile</h3>
+        <br>
+        <!--Name input-->
+        <div class="form-outline mb-4">
+          <input type="text" id="nama" placeholder="Nama" class="form-control" />
+         <!-- <label class="form-label" for="loginName">name</label> -->
         </div>
-        <div class="col-sm-2 p-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+        <!-- Asal sekolah input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="asl-sekolah" placeholder="Asal sekolah" class="form-control" />
+         <!-- <label class="form-label" for="loginName">Email</label> -->
         </div>
-        <div class="col-sm-2 p-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+        <!--Alamat input-->
+        <div class="form-outline mb-4">
+            <input type="textarea" id="alamat" placeholder="Alamat" class="form-control" />
+           <!-- <label class="form-label" for="loginName">Alamaat</label> -->
           </div>
-        </div>
-        <div class="col-sm-2 p-2">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+  
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="notelp" placeholder="No. telepon"class="form-control" />
+          <!--<label class="form-label" for="loginPassword">Password</label> -->
+        </div>        
+    
+        <!-- buttons -->
+        <div class="row">
+            <div class="col">
+                <button onclick="alert()" type="submit" class="btn btn-primary btn-block" style="width: 100%">Simpan</button>
             </div>
-          </div>
-        </div>
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    </body>
+            <div class="col">
+                <button type="submit" class="btn btn-primary btn-secondary" style="width: 100%">Batal</button>
+            </div>
+        
+      </form>
+    </div>
+  </div>
+  <!-- Pills content -->  
+
+</div>
+</div>
+</div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
 </html>
-
