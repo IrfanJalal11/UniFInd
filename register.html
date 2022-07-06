@@ -56,7 +56,11 @@
     <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
       <form>
         <br>
-
+        <!--Name input-->
+        <div class="form-outline mb-4">
+          <input type="text" id="loginName" placeholder="Nama" class="form-control" />
+         <!-- <label class="form-label" for="loginName">name</label> -->
+        </div>
         <!-- Email input -->
         <div class="form-outline mb-4">
           <input type="email" id="loginName" placeholder="Email" class="form-control" />
@@ -67,21 +71,21 @@
         <div class="form-outline mb-4">
           <input type="password" id="loginPassword" placeholder="Password"class="form-control" />
           <!--<label class="form-label" for="loginPassword">Password</label> -->
+        </div>        
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <input type="password" id="loginPassword" placeholder="Repeat password"class="form-control" />
+          <!--<label class="form-label" for="loginPassword">Password</label> -->
         </div>
   
         <!-- 2 column grid layout -->
         <div class="row mb-4">
-          <div class="col-md-6 d-flex justify-content-center">
+          <div class=" d-flex justify-content-center">
             <!-- Checkbox -->
             <div class="form-check mb-3 mb-md-0">
               <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
-              <label class="form-check-label" for="loginCheck"> Remember me </label>
+              <label class="form-check-label" for="loginCheck"> I have read and agree with the terms & conditions </label>
             </div>
-          </div>
-  
-          <div class="col-md-6 d-flex justify-content-center">
-            <!-- Simple link -->
-            <a href="#!">Forgot password?</a>
           </div>
         </div>
   
