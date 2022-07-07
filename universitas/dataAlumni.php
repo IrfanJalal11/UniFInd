@@ -3,7 +3,6 @@
         <title>Universitas: Data Alumni</title>
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <style>
           .card:hover{
             transform: scale(1.05);
@@ -25,7 +24,7 @@
           <a class="navbar-brand" href="/unifind/index.php">
             <h3 class="fw-bolder" style="color: red;">Uni<span class="fw-bold" style="color: white;">Find</span></h3>
           </a>
-          <a class="align-right navbar-brand text-white" href="/unifind/user/profile.html"><img src="/unifind/assets/images/account.png" alt="profile picture" style="width: 30px;"> Marwoto</a>
+          <a class="align-right navbar-brand text-white" href="/unifind/user/login.html"><img src="/unifind/assets/images/account.png" alt="profile picture" style="width: 30px;"> Marwoto</a>
         </div>
       </nav>
 
@@ -62,72 +61,6 @@
           </div>
         </div>
       </nav>
-
-      <!-- Data Table -->
-      <div class="container-fluid justify-content-center p-5 bg-light" style="height: 100%; width: 90%">
-        <div class="input-group rounded p-4" style="width:18em; margin-left:75%;">
-          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-          <span class="input-group-text border-0" id="search-addon">
-            <i class="bi bi-search"></i>
-          </span>
-        </div>
-        <table class="table table-hover table-borderless" style="background-color: #e7f0ff;">
-          <thead>
-            <tr style="background-color: lightblue">
-              <th scope="col">#</th>
-              <th scope="col">Nama Alumni</th>
-              <th scope="col">Email</th>
-              <th scope="col">LinkedIn</th>
-              <th scope="col">Angkatan</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Ahmad Sumarno</td>
-              <td>sumarnomarno@gmail.com</td>
-              <td><a class="text-decoration-none" href="https://id.linkedin.com/">Detail</a></td>
-              <td>2016</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Ahmad Sumarno</td>
-              <td>sumarnomarno@gmail.com</td>
-              <td><a class="text-decoration-none" href="https://id.linkedin.com/">Detail</a></td>
-              <td>2016</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Ahmad Sumarno</td>
-              <td>sumarnomarno@gmail.com</td>
-              <td><a class="text-decoration-none" href="https://id.linkedin.com/">Detail</a></td>
-              <td>2016</td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>Ahmad Sumarno</td>
-              <td>sumarnomarno@gmail.com</td>
-              <td><a class="text-decoration-none" href="https://id.linkedin.com/">Detail</a></td>
-              <td>2016</td>
-            </tr>
-            <tr>
-              <th scope="row">5</th>
-              <td>Ahmad Sumarno</td>
-              <td>sumarnomarno@gmail.com</td>
-              <td><a class="text-decoration-none" href="https://id.linkedin.com/">Detail</a></td>
-              <td>2016</td>
-            </tr>
-            <tr>
-              <th scope="row">6</th>
-              <td>Ahmad Sumarno</td>
-              <td>sumarnomarno@gmail.com</td>
-              <td><a class="text-decoration-none" href="https://id.linkedin.com/">Detail</a></td>
-              <td>2016</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
       <!-- Bootstrap JS -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </body>
