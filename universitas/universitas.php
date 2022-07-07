@@ -30,7 +30,7 @@
       </nav>
 
       <!-- Navbar dropdown -->
-      <nav class="navbar navbar-expand-lg bg-white shadow-sm p-3 mb-5 bg-body" style="height: 35px;">
+      <nav class="navbar navbar-expand-lg bg-white shadow-sm p-3 mb-5 bg-body " style="height: 35px;">
         <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav" style="margin-left: 1000px;">

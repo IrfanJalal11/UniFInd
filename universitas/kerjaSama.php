@@ -59,16 +59,18 @@
       </nav>
 
       <!-- Data Table -->
-      <div class="container-fluid justify-content-center p-5 bg-light" style="height: 100%; width: 90%">
+      <div class="container">
+      <div class="card mt-5 shadow-sm p-3 mb-5 bg-body rounded">
+      <div class="card-body p-4">
         <div class="input-group rounded p-4" style="width:18em; margin-left:75%;">
           <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
           <span class="input-group-text border-0" id="search-addon">
             <i class="bi bi-search"></i>
           </span>
         </div>
-        <table class="table table-hover table-borderless" style="background-color: #e7f0ff;">
+        <table class="table table-hover table-borderless" style="background-color: #f4f7ff">
           <thead>
-            <tr style="background-color: lightblue">
+            <tr style="background-color: #e3ebff">
               <th scope="col">#</th>
               <th scope="col">Nama Universitas</th>
               <th scope="col">Alamat</th>
@@ -108,6 +110,8 @@
             </tr>
           </tbody>
         </table>
+      </div>
+      </div>
       </div>
 
       <!-- Bootstrap JS -->
