@@ -24,7 +24,7 @@
           <a class="navbar-brand" href="/unifind/index.php">
             <h3 class="fw-bolder" style="color: red;">Uni<span class="fw-bold" style="color: white;">Find</span></h3>
           </a>
-          <a class="align-right navbar-brand text-white" href="/unifind/user/login.html"><img src="/unifind/assets/images/account.png" alt="profile picture" style="width: 30px;"> Marwoto</a>
+          <a class="align-right navbar-brand text-white" href="/unifind/user/profile.html"><img src="/unifind/assets/images/account.png" alt="profile picture" style="width: 30px;"> Marwoto</a>
         </div>
       </nav>
 
