@@ -69,7 +69,7 @@
       <div class="pt-3 pb-3">
         <img src="assets/images/kuliah-bsi.jpg" alt="sponsored-content" style="width: 100%; height: 400px;">
       </div>
-
+<div class="container">
       <!-- Menu Cards -->
       <div class="row p-3">
         <div class="col-sm-2" style="width: 25%">
@@ -112,6 +112,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
 
       <!-- Bootstrap JS -->
